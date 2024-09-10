@@ -1,0 +1,62 @@
+.profileform{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.profileform h1{
+    margin: 0;
+}
+
+.profileform h4{
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #52cd52;
+}
+
+.pform{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    position: relative;
+    width: 90%;
+}
+
+.firstName, .lastName, .full{
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid rgba(128, 128, 128, 0.18);
+    border-top: 1.5px solid rgba(128, 128, 128, 0.18);
+    border-left: 1.5px solid rgba(128, 128, 128, 0.18);
+    border-right: 1.5px solid rgba(128, 128, 128, 0.18);
+    text-indent: 10px;
+}
+.name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.full{
+    display: block;
+}
+
+.submit-btn{
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+
+    background-color: #52cd52;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 200ms ease-in-out;
+}
+
+.submit-btn:hover{
+    opacity: 0.7;
+}

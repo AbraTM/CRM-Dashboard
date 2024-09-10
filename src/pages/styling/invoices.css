@@ -1,0 +1,37 @@
+.invoices{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.invoices h1{
+    margin: 0;
+}
+
+.invoices h4{
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #52cd52;
+}
+
+.invoices-table-top{
+    display: grid;
+    grid-template-columns: 75px 200px 200px 350px 125px 150px;
+    font-weight: 700;
+    font-size: 18px;
+    width: fit-content;
+    margin-bottom: 15px;
+}
+
+.invoice{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 75px 200px 200px 350px 125px 150px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid  rgba(128, 128, 128, 0.18);
+    width: fit-content;
+    height: 30px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,46 @@
+.transactions{
+    height: 335px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(128, 128, 128, 0.18);
+    border-radius: 14px;
+    padding-inline: 15px;
+}
+
+.transactions::-webkit-scrollbar {
+    display: none;
+}
+
+.transactions h1{
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.transaction{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.8fr;
+    align-items: center;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.18);
+    font-size: 14px;
+    padding-block: 4px;
+    cursor: pointer;
+}
+
+.txid{
+    display: block;
+    color: #52cd52;
+}
+
+.txcost{
+    font-weight: 500;
+    color: white;
+    background-color: #52cd52;
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding-block: 5px;
+}

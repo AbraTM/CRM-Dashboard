@@ -1,0 +1,10 @@
+.polarareagraph{
+    box-sizing: border-box;
+    border: 1.5px solid rgba(128, 128, 128, 0.18);
+    border-radius: 14px;
+    padding-bottom: 7px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

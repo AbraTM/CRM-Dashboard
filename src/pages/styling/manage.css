@@ -1,0 +1,56 @@
+.manage{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.manage h1{
+    margin: 0;
+}
+
+.manage h4{
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #52cd52;
+}
+
+.table-top{
+    display: grid;
+    grid-template-columns: 75px 250px 100px 225px 350px 270px;
+    font-weight: 700;
+    font-size: 18px;
+    width: fit-content;
+    margin-bottom: 15px;
+}
+
+.member{
+    display: grid;
+    grid-template-columns: 75px 250px 100px 225px 350px 270px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid  rgba(128, 128, 128, 0.18);
+    width: fit-content;
+    padding-bottom: 10px;
+}
+
+.access{
+    box-sizing: border-box;
+    background-color: rgba(36, 43, 58, 255);
+    color: white;
+    width: 225px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}   
+
+.access img{
+    padding-right: 10px;
+    width: 22px;
+}
+
+.access p::first-letter{
+    text-transform: capitalize;
+}
